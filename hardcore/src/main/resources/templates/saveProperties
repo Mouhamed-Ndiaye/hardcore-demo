@@ -1,0 +1,19 @@
+
+# Global configuration
+spring.application.name=hardcore8
+
+# Tomcat configuration
+server.port=9000
+
+# Log level configuration
+logging.level.root=ERROR
+logging.level.sn.fenix.api=INFO
+logging.level.org.springframework.boot.web.embedded.tomcat=INFO
+
+# Connexion à la base de données PostgreSQL
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:postgresql://localhost:5432/hardcore
+spring.datasource.username=fenix
+spring.datasource.password=Passer123
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.show-sql=true
